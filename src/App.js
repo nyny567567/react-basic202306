@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import SayHello from './SayHello';
 import SubmitEvent from './component/chap01_event/SubmitEvent';
+import NickName from './component/chap03_state/NickName';
 
 
 //리액트에서는 하나의 컴포넌트가 여러개의 엘리먼트를 반환할 수 있습니다.
@@ -23,7 +24,7 @@ const looping = () => {
 //{} 안에서 함수의 호출문이나 변수참조는 가능.
   return(
     <>
-     <SubmitEvent />
+     <NickName />
      </>
        );
 }
